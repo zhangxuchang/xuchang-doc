@@ -1,6 +1,6 @@
 # Facebook Instant Game 调查
 
-起因: 发布，推广相关
+内容: 发布，推广相关
 
 ## 文档资料
 
