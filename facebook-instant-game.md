@@ -31,6 +31,8 @@
     FB提供了Demo项目展示如何利用gulp将项目打包及上传脚本话
 * 在Web Hosting 页面可以看到游戏的历史版本，也可以进行版本切换操作
 * 限制: 项目文件总体积不能超200M, 总文件数不能超500
+* 发布需要提审 (5张Image 素材，1个Vedio)
+  * 当前经验:调查用的Demo游戏鉴于质量不高没有尝试发布；据了解海哥组第一版游戏已提交尚未通过审核
 
 ## 推广
 
@@ -39,9 +41,10 @@
 
 * getEntryPointData: SDK 中提供了该 method 可以获取游戏启动入口，可用来作统计
 
-* 广告
-  * 在Facebook Instant game 文档中未找到关于广告推广方面的内容
-  * 在来自何龙海编写的《Messenger内游戏调研ver2.1》报告中也说明了 instant game 目前不支持广告推广
+  * SDK中没有发现获取推广信息相关的方法
+
+* Instant game 主要依靠社交推广，及由FB控制的排行榜推广；在Facebook Instant game 文档中未找到关于广告买量方面的信息
+
 
 
   
