@@ -6,6 +6,8 @@
 
 **Instant Games**  <https://developers.facebook.com/docs/games/instant-games/>
 
+**Our Demo game** <https://apps.facebook.com/1852379284782298/> （需授权访问）
+
 
 ## DEV Guides
 
@@ -40,11 +42,18 @@
 <https://developers.facebook.com/docs/games/instant-games/guides/analytics/>
 
 * getEntryPointData: SDK 中提供了该 method 可以获取游戏启动入口，可用来作统计
-
+  * 不过目前实测拿到的数据是 null ,可能与游戏处于未发布状态有关
   * SDK中没有发现获取推广信息相关的方法
 
-* Instant game 主要依靠社交推广，及由FB控制的排行榜推广；在Facebook Instant game 文档中未找到关于广告买量方面的信息
+* 广告推广：Instant game 主要依靠社交推广，及由FB控制的排行榜推广；在Facebook Instant game 文档中未找到关于广告买量方面的信息
 
+* 交叉推广： 通过参考Zynga游戏发现FB SDK提供了游戏交叉推广的API：
+  *  switchGameAsync()
+     *  可以自定义entrypoint信息，便于追踪  
+     *  限制了互相推广的游戏必须在一个business 内
+  * 也尝试了用游戏URl的方式进行推广，发现是被禁止的
+
+     ![MacDown Screenshot](https://xuchang-stat.oasgames.com/doc/img/z2.png)
 
 
   
